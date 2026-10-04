@@ -150,11 +150,11 @@ svg{overflow:visible}
   <div data-k="note" class="S" style="left:160px;top:850px;width:1600px;display:flex;align-items:center;gap:12px;background:#fff;border:3px dashed var(--steel);border-radius:24px;padding:26px 36px;font-size:32px"><b>Database Bestee berbentuk NoSQL,</b> jadi disinkronkan ke tabel SQL agar bisa di-ETL dan di-query.</div>
 </div></div>
 
-<!-- ============ S7 AWS UPLOAD ============ -->
+<!-- ============ S7 CSV UPLOAD ============ -->
 <div class="scene" id="s7" style="background:var(--cream)"><div class="cam">
-  <div data-k="eb" class="S eb" style="left:160px;top:150px">B-One · Data AWS</div>
-  <div data-k="h" class="S h2" style="left:160px;top:205px;width:820px">Data AWS<br>cukup di-upload</div>
-  <div data-k="body" class="S body" style="left:160px;top:430px;width:720px">File dari AWS diunggah ke B-One sebagai dataset, lalu diolah bersama data Bestee.</div>
+  <div data-k="eb" class="S eb" style="left:160px;top:150px">B-One · Upload data</div>
+  <div data-k="h" class="S h2" style="left:160px;top:205px;width:820px">Cukup upload<br>file CSV</div>
+  <div data-k="body" class="S body" style="left:160px;top:430px;width:720px">Membutuhkan kustomisasi data dari sumber lain? Cukup upload file CSV ke B-One sebagai dataset, lalu olah bersama data Bestee.</div>
   <div data-k="pill" class="S" style="left:160px;top:660px;display:flex;align-items:center;gap:18px;background:var(--peach-2);border-radius:20px;padding:22px 30px;font-size:30px;font-weight:700;color:var(--navy);transform-origin:0 50%"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#C2501A" stroke-width="2.4" stroke-linejoin="round"><path d="M12 3l10 18H2z"/><path d="M12 10v5M12 18v.5" stroke-linecap="round"/></svg>Upload file, bukan integrasi API</div>
   <div data-k="win" class="S card" style="left:1000px;top:170px;width:760px;height:720px;overflow:hidden;border-radius:28px;box-shadow:0 30px 60px rgba(23,40,72,.16)">
     <div style="height:72px;background:var(--navy);display:flex;align-items:center;gap:16px;padding:0 28px"><span class="dot"></span><span style="color:#fff;font-size:26px;font-weight:700">B-One · Upload dataset</span></div>
@@ -164,7 +164,7 @@ svg{overflow:visible}
     </div>
     <div data-k="row" style="margin:0 44px;display:flex;align-items:center;gap:20px;background:var(--cream);border-radius:18px;padding:22px 26px">
       <div style="width:58px;height:70px;border-radius:8px;background:#fff;border:3px solid var(--steel);display:flex;align-items:flex-end;justify-content:center;padding-bottom:6px;font-size:14px;font-weight:800;color:var(--orange-d)">CSV</div>
-      <div style="flex:1;display:flex;flex-direction:column;gap:12px"><div style="font-size:26px;font-weight:700">data-aws.csv</div><div style="height:14px;border-radius:7px;background:var(--sand);overflow:hidden"><div data-k="bar" style="width:0%;height:14px;border-radius:7px;background:var(--orange)"></div></div></div>
+      <div style="flex:1;display:flex;flex-direction:column;gap:12px"><div style="font-size:26px;font-weight:700">data-tambahan.csv</div><div style="height:14px;border-radius:7px;background:var(--sand);overflow:hidden"><div data-k="bar" style="width:0%;height:14px;border-radius:7px;background:var(--orange)"></div></div></div>
       <div data-k="pct" style="font-size:24px;font-weight:700;color:var(--gray);width:120px;text-align:right">0%</div>
     </div>
   </div>
@@ -298,8 +298,8 @@ svg{overflow:visible}
   <div data-k="vl" class="S" style="left:957px;top:0;width:6px;height:1080px;background:var(--orange);transform-origin:50% 0"></div>
   <div data-k="tl" class="S" style="left:140px;top:240px;width:700px;display:flex;flex-direction:column;gap:30px">
     <div class="eb">01 · Integrated Dashboard</div>
-    <div style="font-size:72px;font-weight:800;line-height:1.08;letter-spacing:-2px">Data Bestee &amp; AWS terolah di <span data-k="k1">B-One</span></div>
-    <div class="body">Sinkron per jam ke SQL, upload file AWS, dashboard dinamis.</div>
+    <div style="font-size:72px;font-weight:800;line-height:1.08;letter-spacing:-2px">Data Bestee terolah di <span data-k="k1">B-One</span></div>
+    <div class="body">Sinkron per jam ke SQL, upload file CSV, dashboard dinamis.</div>
   </div>
   <div data-k="tr" class="S" style="left:1100px;top:240px;width:700px;display:flex;flex-direction:column;gap:30px">
     <div class="eb" style="color:var(--amber)">02 · New Modul Recommendation</div>
